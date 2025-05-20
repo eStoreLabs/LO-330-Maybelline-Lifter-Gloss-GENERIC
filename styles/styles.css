@@ -229,11 +229,11 @@
  #es-rc #es-rc-content .es-features__heading {
 	 text-transform: uppercase;
 	 font-family: 'Barlow Condensed', sans-serif;
-	 font-size: clamp(0.875rem, 15.9rem, 10rem);
+	 font-size: clamp(0.875rem, 15.9rem, 7rem);
 }
  #es-rc #es-rc-content .es-features__subheading {
 	 font-weight: 500;
-	 font-size: clamp(0.7rem, 4.1rem, 11rem);
+	 font-size: clamp(0.7rem, 2.1rem, 11rem);
 }
  @media (min-width: 576px) {
 	 #es-rc #es-rc-content .es-features {
