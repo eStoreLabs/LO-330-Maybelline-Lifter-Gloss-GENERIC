@@ -36,6 +36,10 @@ $color-secondary: #B9827D;
         margin: 0 auto;
     }
 
+    .es-bolded {
+      font-weight: 700;
+    }
+    
     .es-title {
         text-transform: uppercase;
         font-family: $secondary;
@@ -399,6 +403,7 @@ $color-secondary: #B9827D;
 
         .es-colors__single .es-colors__imgContainer img {
             transition: all 200ms ease-in-out;
+            max-width: 144px;
         }
 
         .es-colors__single:hover .es-colors__imgContainer img {

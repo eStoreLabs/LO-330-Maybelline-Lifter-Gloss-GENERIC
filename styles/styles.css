@@ -50,6 +50,9 @@
 	 display: block;
 	 margin: 0 auto;
 }
+ #es-rc #es-rc-content .es-bolded {
+	 font-weight: 700;
+}
  #es-rc #es-rc-content .es-title {
 	 text-transform: uppercase;
 	 font-family: 'Barlow Condensed', sans-serif;
@@ -329,6 +332,7 @@
 }
  #es-rc #es-rc-content .es-available-colors .es-colors__single .es-colors__imgContainer img {
 	 transition: all 200ms ease-in-out;
+	 max-width: 144px;
 }
  #es-rc #es-rc-content .es-available-colors .es-colors__single:hover .es-colors__imgContainer img {
 	 scale: 1.1;
