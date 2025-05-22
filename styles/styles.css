@@ -388,8 +388,14 @@
 		 justify-content: center;
 		 gap: 32px 0px;
 	}
+	 #es-rc #es-rc-content .es-available-colors .es-colors__wrapper .es-colors__single .es-colors__imgContainer img {
+		 max-width: 96px;
+	}
 }
  @media (min-width: 768px) {
+	 #es-rc #es-rc-content .es-available-colors .es-colors__wrapper .es-colors__single .es-colors__imgContainer img {
+		 max-width: 118px;
+	}
 	 #es-rc #es-rc-content .es-before-after .es-available-colors__header {
 		 max-width: 46%;
 		 text-align: right;
@@ -422,6 +428,9 @@
  @media (min-width: 988px) {
 	 #es-rc #es-rc-content .es-available-colors .es-blob {
 		 right: 4%;
+	}
+	 #es-rc #es-rc-content .es-available-colors .es-colors__wrapper .es-colors__single .es-colors__imgContainer img {
+		 max-width: 144px;
 	}
 }
  #es-rc #es-rc-content .es-top-lip-combo__heading {

@@ -476,11 +476,21 @@ $color-secondary: #B9827D;
             align-items: flex-end;
             justify-content: center;
             gap: 32px 0px;
+            .es-colors__single .es-colors__imgContainer img {
+              max-width: 96px;
+          }
         }
       }
     }
 
     @media (min-width: 768px) {
+     .es-available-colors {
+        .es-colors__wrapper {
+            .es-colors__single .es-colors__imgContainer img {
+              max-width: 118px;
+          }
+        }
+      }
         .es-before-after .es-available-colors__header {
             max-width: 46%;
             text-align: right;
@@ -522,6 +532,13 @@ $color-secondary: #B9827D;
         .es-available-colors .es-blob {
             right: 4%;
         }
+             .es-available-colors {
+        .es-colors__wrapper {
+            .es-colors__single .es-colors__imgContainer img {
+              max-width: 144px;
+          }
+        }
+      }
     }
 
     /**************************************/
